@@ -75,7 +75,7 @@ export default function Home() {
     
     
     
-    <div className="relative top-40 w-11/12 mx-auto bottom-1 h-4/5 rounded-3xl text-center bg-black overflow-hidden hover:cursor-pointer	">
+    <div className="relative top-[16%] w-11/12 mx-auto bottom-1 h-4/5 rounded-3xl text-center bg-black overflow-hidden hover:cursor-pointer	">
     <div className="absolute text-neutral-700 text-left text-wrap m-2	">
     <span className="text-lime-400">c</span>
       {code}
