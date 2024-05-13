@@ -25,9 +25,9 @@ export default function Home() {
 
 
 
-      <Image className="absolute ml-5 mt-1"
+      <Image className="absolute ml-5 mt-3"
     src="/logo.png"
-          width={20}
+          width={30}
           height={50}
           alt="Picture of the author"
           >
@@ -35,10 +35,10 @@ export default function Home() {
       </Image>
     
       <Menu>
-      <MenuButton className="absolute end-0 m-1">
+      <MenuButton className="absolute end-0 m-3">
         <Image
     src="/menu.png"
-          width={40}
+          width={50}
           height={50}
           alt="Picture of the author"
           >
@@ -53,7 +53,7 @@ export default function Home() {
         leaveFrom="opacity-100 scale-100 translate-y-0"
         leaveTo="opacity-0 scale-100 -translate-y-6"
       >
-      <MenuItems anchor="top start" className="w-full h-full text-white top-10 origin-top transition backdrop-blur-md">
+      <MenuItems anchor="bottom end" className="w-full h-full text-white top-10 origin-top transition backdrop-blur-md">
         <MenuItem>
           <a className="block data-[open]: m-20 w-32 h-10 text-2xl left-20" href="/chet">
             CHET BOT
@@ -75,8 +75,8 @@ export default function Home() {
     
     
     
-    <div className="relative top-[16%] w-11/12 mx-auto bottom-1 h-4/5 rounded-3xl text-center bg-[#161616] overflow-hidden hover:cursor-pointer	">
-    <div className="absolute text-neutral-700 text-left text-wrap m-2	blur-[1.5px]">
+    <div className="relative top-[16%] w-11/12 mx-auto bottom-1 h-4/5 rounded-3xl text-center bg-gradient-to-b from-transparent via-[#1E1E1E] to-transparent overflow-hidden hover:cursor-pointer	">
+    <div className="absolute text-neutral-700 text-left text-wrap m-2">
     <span className="text-lime-400">c</span>
       {code}
     {code2}
