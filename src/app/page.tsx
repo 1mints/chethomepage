@@ -55,17 +55,17 @@ export default function Home() {
       >
       <MenuItems anchor="top start" className="w-full h-full text-white top-10 origin-top transition backdrop-blur-md">
         <MenuItem>
-          <a className="block data-[focus]: m-20 w-32 h-10 text-2xl left-20" href="/chet">
+          <a className="block data-[active]: m-20 w-32 h-10 text-2xl left-20" href="/chet">
             CHET BOT
           </a>
         </MenuItem>
         <MenuItem>
-          <a className="block data-[focus]: m-20 w-32 h-10 text-2xl left-1/4" href="/dameme">
+          <a className="block data-[active]: m-20 w-32 h-10 text-2xl left-1/4" href="/dameme">
             DAMEM-E
           </a>
         </MenuItem>
         <MenuItem>
-          <a className="block data-[focus]: m-20 w-32 h-10 text-2xl left-1/4" href="/showcase">
+          <a className="block data-[active]: m-20 w-32 h-10 text-2xl left-1/4" href="/showcase">
             SHOWCASE
           </a>
         </MenuItem>
