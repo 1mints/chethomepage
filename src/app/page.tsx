@@ -3,7 +3,7 @@
 import { useEffect } from 'react'
 import Typewriter from 'react-ts-typewriter';
 import Image from 'next/image'
-
+import Link from 'next/link'
 import { Menu, MenuButton, MenuItem, MenuItems,Transition  } from '@headlessui/react'
 
 
@@ -12,6 +12,7 @@ import { Menu, MenuButton, MenuItem, MenuItems,Transition  } from '@headlessui/r
 let code = "/gfadjhgbnafgjbnapdifjgbapfjgbapidjbgpajfbgpadjgbf3875gub-257gb-25gb2-9gb-gqi3uy4gt][q4]q15b243524352/45v/2445v/234kh5v2/34hk5vyitgvfouyvr0q8yvf4v/5v43;2h5v0y8243vf5;hvarluyrvfpiqyvfpiqwervf/q45/54v8q-gr-78hgp7yh[t8r9w-rtywertyw-etyweuytgfweikuyrtflwueryftgvrluiyqfgrtop8yqwfrtpyuiwergftp8wyfgtrpw8yrgftpw8yrgtpw89gtr[wergtu;riwe245bg-2349bg-5427bg-425bg-894725bg-94572bg-9452bg-9425bg-9425bg-984527bg-4925gb-425gb452-97gb45-297bg"
 
 let code2= "/g09u5bbu-qg5buip5uibpb2gq--gqq--gq9u4g-4-ubqvbuygquy4tvgouyvouyvouyvuyvsfghgfadghvafyg0gqgvagg[aag]]adfg;afdghvaofuhgvoag0y0vgvyg80qvygqvy08gygvrvyglavhhlvaoihvgagfgadf-g-d-g-adgf-da-g-dafg-af-gaghuvgvurvughruvgh0afagvhgav0fhgavfh0uiagfvhu0gfvhu0agfuvh0agfvdu0hafgafdg-adf-gadgabfuaF48Q76040QFGVYVGF0Q8V0QV4G0-QV4G0QVG4Q80GV04QGVAFHVLFADHGVOUYIAZFGOAIDGPIAGFOUYASDGO8FYAGDSPYUGA]G[AFDG-AD-FGS-G-S-DFG-SDF-]GF-]SDF]G-]FDS]-G-S]G-]S]-G]-S]"
+
 
 
 export default function Home() {
@@ -55,17 +56,17 @@ export default function Home() {
       >
       <MenuItems anchor="bottom end" className="w-full h-full text-white top-10 origin-top transition backdrop-blur-md">
         <MenuItem>
-          <a className="block data-[open]: m-20 w-32 h-10 text-2xl left-20" href="/chet">
+          <a className="block data-[active]: m-20 w-32 h-10 text-2xl left-20" href="/chet">
             CHET BOT
           </a>
         </MenuItem>
         <MenuItem>
-          <a className="block data-[open]: m-20 w-32 h-10 text-2xl left-1/4" href="/dameme">
+          <a className="block data-[active]: m-20 w-32 h-10 text-2xl left-1/4" href="/dameme">
             DAMEM-E
           </a>
         </MenuItem>
         <MenuItem>
-          <a className="block data-[open]: m-20 w-32 h-10 text-2xl left-1/4" href="/showcase">
+          <a className="block data-[active]: m-20 w-32 h-10 text-2xl left-1/4" href="/showcase">
             SHOWCASE
           </a>
         </MenuItem>
