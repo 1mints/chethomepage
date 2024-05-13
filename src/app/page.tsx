@@ -16,7 +16,7 @@ let code2= "/g09u5bbu-qg5buip5uibpb2gq--gqq--gq9u4g-4-ubqvbuygquy4tvgouyvouyvouy
 
 export default function Home() {
   return (
-    <div className="relative flex w-full h-screen bg-zinc-800">
+    <div className="relative flex w-full h-screen bg-[#1E1E1E]">
     
     
       <div className="">
@@ -35,7 +35,7 @@ export default function Home() {
       </Image>
     
       <Menu>
-      <MenuButton className="absolute end-0 m-1 data-[hover]:">
+      <MenuButton className="absolute end-0 m-1">
         <Image
     src="/menu.png"
           width={40}
@@ -53,19 +53,19 @@ export default function Home() {
         leaveFrom="opacity-100 scale-100 translate-y-0"
         leaveTo="opacity-0 scale-100 -translate-y-6"
       >
-      <MenuItems anchor="top start" className="w-full  text-white top-10 origin-top transition backdrop-blur-sm">
+      <MenuItems anchor="top start" className="w-full h-full text-white top-10 origin-top transition backdrop-blur-md">
         <MenuItem>
-          <a className="block data-[focus]: m-10 w-32 h-10 text-2xl left-10" href="/chet">
+          <a className="block data-[focus]: m-20 w-32 h-10 text-2xl left-20" href="/chet">
             CHET BOT
           </a>
         </MenuItem>
         <MenuItem>
-          <a className="block data-[focus]: m-10 w-32 h-10 text-2xl left-1/4" href="/dameme">
+          <a className="block data-[focus]: m-20 w-32 h-10 text-2xl left-1/4" href="/dameme">
             DAMEM-E
           </a>
         </MenuItem>
         <MenuItem>
-          <a className="block data-[focus]: m-10 w-32 h-10 text-2xl left-1/4" href="/showcase">
+          <a className="block data-[focus]: m-20 w-32 h-10 text-2xl left-1/4" href="/showcase">
             SHOWCASE
           </a>
         </MenuItem>
@@ -75,8 +75,8 @@ export default function Home() {
     
     
     
-    <div className="relative top-[16%] w-11/12 mx-auto bottom-1 h-4/5 rounded-3xl text-center bg-black overflow-hidden hover:cursor-pointer	">
-    <div className="absolute text-neutral-700 text-left text-wrap m-2	">
+    <div className="relative top-[16%] w-11/12 mx-auto bottom-1 h-4/5 rounded-3xl text-center bg-[#161616] overflow-hidden hover:cursor-pointer	">
+    <div className="absolute text-neutral-700 text-left text-wrap m-2	blur-[1.5px]">
     <span className="text-lime-400">c</span>
       {code}
     {code2}
