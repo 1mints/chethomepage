@@ -16,7 +16,7 @@ let code2= "/g09u5bbu-qg5buip5uibpb2gq--gqq--gq9u4g-4-ubqvbuygquy4tvgouyvouyvouy
 
 export default function Home() {
   return (
-    <div className="relative flex w-full h-screen bg-[#1E1E1E]">
+    <div className="relative flex w-full h-screen overflow-hidden bg-[#1E1E1E]">
     
     
       <div className="">
@@ -99,7 +99,7 @@ export default function Home() {
     </div>
 
     <span className="relative top-1/2 text-white text-4xl	">
-    <Typewriter speed={100} text={["WELCOME TO CHETAI         ", "EXPLORING THE INTERSECTION BETWEEN MEMES AND AI        "]}
+    <Typewriter speed={100} text={["WELCOME TO CHETAI         ", "EXPLORING THE INTERSECTION      ", "BETWEEN MEMES AND AI        "]}
         loop={true} delay={60} cursor={true}></Typewriter>
     </span>
 
