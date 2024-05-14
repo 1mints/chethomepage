@@ -2,5 +2,39 @@
 @tailwind utilities;
 @tailwind components;
 
-
+@layer utilities {
+    .backdrop-blur-none {
+      @apply backdrop-filter-none;
+      -webkit-backdrop-filter: none;
+    }
+    .backdrop-blur-sm {
+      @apply backdrop-filter-blur-sm;
+      -webkit-backdrop-filter: blur(4px);
+      backdrop-filter: blur(4px);
+    }
+    .backdrop-blur {
+      @apply backdrop-filter-blur;
+      -webkit-backdrop-filter: blur(20px);
+    }
+    .backdrop-blur-md {
+      @apply backdrop-filter-blur-md;
+      -webkit-backdrop-filter: blur(8px);
+    }
+    .backdrop-blur-lg {
+      @apply backdrop-filter-blur-lg;
+      -webkit-backdrop-filter: blur(16px);
+    }
+    .backdrop-blur-xl {
+      @apply backdrop-filter-blur-xl;
+      -webkit-backdrop-filter: blur(24px);
+    }
+    .backdrop-blur-2xl {
+      @apply backdrop-filter-blur-2xl;
+      -webkit-backdrop-filter: blur(40px);
+    }
+    .backdrop-blur-3xl {
+      @apply backdrop-filter-blur-3xl;
+      -webkit-backdrop-filter: blur(64px);
+    }
+  }
 
