@@ -54,7 +54,7 @@ export default function Home() {
         leaveFrom="opacity-100 scale-100 translate-y-0"
         leaveTo="opacity-0 scale-100 -translate-y-6"
       >
-      <MenuItems anchor="bottom end" className="w-full h-full text-white top-10 origin-top transition backdrop-blur-webkit-md backdrop-blur-md">
+      <MenuItems anchor="bottom end" className="w-full h-full text-white top-10 origin-top transition backdrop-blur-webkit-md backdrop-blur-md -webkit-backdrop-blur-md">
         <MenuItem>
           <a className="block data-[active]: m-20 w-32 h-10 text-2xl left-20" href="/chet">
             CHET BOT
