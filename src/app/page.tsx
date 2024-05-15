@@ -48,7 +48,7 @@ export default function Home() {
       <div className="cursor-pointer mx-20"><Link href="/dameme">DAMEM-E</Link></div>
       
       
-      <div className="cursor-pointer"><Link href="/showcase">SHOWCASE</Link></div>
+      <div className="cursor-pointer"><Link href="nft">NFT</Link></div>
      
       </div>
     
@@ -83,8 +83,8 @@ export default function Home() {
           </a>
         </MenuItem>
         <MenuItem>
-          <a className="block data-[active]: m-20 w-32 h-10 text-2xl left-1/4" href="/showcase">
-            SHOWCASE
+          <a className="block data-[active]: m-20 w-32 h-10 text-2xl left-1/4" href="/nft">
+            NFT
           </a>
         </MenuItem>
       </MenuItems>
