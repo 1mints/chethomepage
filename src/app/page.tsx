@@ -9,11 +9,15 @@ import { Menu, MenuButton, MenuItem, MenuItems,Transition  } from '@headlessui/r
 
 
 //temporary
-let code = "/gfadjhgbnafgjbnapdifjgbapfjgbapidjbgpajfbgpadjgbf3875gub-257gb-25gb2-9gb-gqi3uy4gt][q4]q15b243524352/45v/2445v/234kh5v2/34hk5vyitgvfouyvr0q8yvf4v/5v43;2h5v0y8243vf5;hvarluyrvfpiqyvfpiqwervf/q45/54v8q-gr-78hgp7yh[t8r9w-rtywertyw-etyweuytgfweikuyrtflwueryftgvrluiyqfgrtop8yqwfrtpyuiwergftp8wyfgtrpw8yrgftpw8yrgtpw89gtr[wergtu;riwe245bg-2349bg-5427bg-425bg-894725bg-94572bg-9452bg-9425bg-9425bg-984527bg-4925gb-425gb452-97gb45-297bg"
+let code = "/gfadjhgbnafgjbnapdifjgbapfjgbapidjbgpajfbgpadjgbf3875gub-257guabg089u45ybgpiabfagagb-25gb2-9gb-gqi3uy4gt][q4]q15b243524352/45v/2445v/234kh5v2/34hk5vyitgvfouyvr0q8yvf4v/5v43;2h5v0y8243vf5;hvarluyrvfpiqyvfpiqwervf/q45/54v8q-gr-78hgp7yh[t8r9w-rtywertyw-etyweuytgfweikuyrtflwueryftgvrluiyqfgrtop8yqwfrtpyuiwergftp8wyfgtrpw8yrgftpw8yrgtpw89gtr[wergtu;riwe245bg-2349bg-5427bg-425bg-894725bg-94572bg-9452bg-9425bg-9425bg-984527bg-4925gb-425gb452-97gb45-297bg"
 
 let code2= "/g09u5bbu-qg5buip5uibpb2gq--gqq--gq9u4g-4-ubqvbuygquy4tvgouyvouyvouyvuyvsfghgfadghvafyg0gqgvagg[aag]]adfg;afdghvaofuhgvoag0y0vgvyg80qvygqvy08gygvrvyglavhhlvaoihvgagfgadf-g-d-g-adgf-da-g-dafg-af-gaghuvgvurvughruvgh0afagvhgav0fhgavfh0uiagfvhu0gfvhu0agfuvh0agfvdu0hafgafdg-adf-gadgabfuaF48Q76040QFGVYVGF0Q8V0QV4G0-QV4G0QVG4Q80GV04QGVAFHVLFADHGVOUYIAZFGOAIDGPIAGFOUYASDGO8FYAGDSPYUGA]G[AFDG-AD-FGS-G-S-DFG-SDF-]GF-]SDF]G-]FDS]-G-S]G-]S]-G]-S]"
 
-
+let code3 = `\_   ___ \|  |__   _____/  |_    /  _  \ |__| \_   ___ \|  |__   _____/  |_    /  _  \ |__| \_   ___ \|  |__   _____/  |_    /  _  \ |__| \_   ___ \|  |__   _____/  |_    /  _  \ |__| \_   ___ \|  |__   _____/  |_    /  _  \ |__| \_   ___ \|  |__   _____/  |_    /  _  \ |__| \_   ___ \|  |__   _____/  |_    /  _  \ |__| \_   ___ \|  |__   _____/  |_    /  _  \ |__| \_   ___ \|  |__   _____/  |_    /  _  \ |__| \_   ___ \|  |__   _____/  |_    /  _  \ |__| \_   ___ \|  |__   _____/  |_    /  _  \ |__|
+/    \  \/|  |  \_/ __ \   __\  /  /_\  \|  | /    \  \/|  |  \_/ __ \   __\  /  /_\  \|  | /    \  \/|  |  \_/ __ \   __\  /  /_\  \|  | /    \  \/|  |  \_/ __ \   __\  /  /_\  \|  | /    \  \/|  |  \_/ __ \   __\  /  /_\  \|  | /    \  \/|  |  \_/ __ \   __\  /  /_\  \|  | /    \  \/|  |  \_/ __ \   __\  /  /_\  \|  | /    \  \/|  |  \_/ __ \   __\  /  /_\  \|  | /    \  \/|  |  \_/ __ \   __\  /  /_\  \|  | /    \  \/|  |  \_/ __ \   __\  /  /_\  \|  | /    \  \/|  |  \_/ __ \   __\  /  /_\  \|  |
+\     \___|   Y  \  ___/|  |   /    |    \  | \     \___|   Y  \  ___/|  |   /    |    \  | \     \___|   Y  \  ___/|  |   /    |    \  | \     \___|   Y  \  ___/|  |   /    |    \  | \     \___|   Y  \  ___/|  |   /    |    \  | \     \___|   Y  \  ___/|  |   /    |    \  | \     \___|   Y  \  ___/|  |   /    |    \  | \     \___|   Y  \  ___/|  |   /    |    \  | \     \___|   Y  \  ___/|  |   /    |    \  | \     \___|   Y  \  ___/|  |   /    |    \  | \     \___|   Y  \  ___/|  |   /    |    \  |
+ \______  /___|  /\___  >__|   \____|__  /__|  \______  /___|  /\___  >__|   \____|__  /__|  \______  /___|  /\___  >__|   \____|__  /__|  \______  /___|  /\___  >__|   \____|__  /__|  \______  /___|  /\___  >__|   \____|__  /__|  \______  /___|  /\___  >__|   \____|__  /__|  \______  /___|  /\___  >__|   \____|__  /__|  \______  /___|  /\___  >__|   \____|__  /__|  \______  /___|  /\___  >__|   \____|__  /__|  \______  /___|  /\___  >__|   \____|__  /__|  \______  /___|  /\___  >__|   \____|__  /__|
+        \/     \/     \/               \/             \/     \/     \/               \/             \/     \/     \/               \/             \/     \/     \/               \/             \/     \/     \/               \/             \/     \/     \/               \/             \/     \/     \/               \/             \/     \/     \/               \/             \/     \/     \/               \/             \/     \/     \/               \/             \/     \/     \/               \/    `
 
 export default function Home() {
   return (
@@ -89,34 +93,23 @@ export default function Home() {
     </div>
     
     
-    <div className="relative top-[20%] w-full mx-auto h-4/5 rounded-3xl text-center bg-gradient-to-b from-transparent via-[#1E1E1E] to-transparent overflow-hidden hover:cursor-pointer	">
-    <div className="absolute text-neutral-700 from-gray-300 text-left text-wrap m-2">
+    <div className="relative top-[16%] w-11/12 mx-auto h-4/5 rounded-3xl text-center bg-gradient-to-b from-transparent via-[#1E1E1E] to-transparent overflow-hidden hover:cursor-pointer	">
+    <div className="absolute text-neutral-700 from-gray-300 text-left text-wrap m-2 blur-[2px]">
     <span className="text-lime-400">c</span>
-    {code}
-    {code2}
+    {code3}
     <span className="text-lime-400">he</span>
-    {code}
     {code2}
-    {code2}
+    {code3}
     <span className="text-lime-400">t</span>
     {code}
-    {code}
-    {code2}
-    {code}
-    {code2}
-    {code}
-    {code}
-    {code2}
-    {code}
+    {code3}
     <span className="text-lime-400">c</span>
-    {code}
-    {code2}
+    {code3}
     <span className="text-lime-400">he</span>
-    {code}
     {code2}
-    {code2}
+    {code3}
     <span className="text-lime-400">t</span>
-    {code}
+    {code3}
     </div>
 
     <span className="relative top-1/2 text-white text-4xl	">
