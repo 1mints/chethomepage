@@ -22,3 +22,13 @@ const config: Config = {
   plugins: [],
 };
 export default config;
+
+export const metadata = {
+  viewport: {
+    width: "device-width",
+    height: "device-height",
+    initialScale: 1,
+    maximumScale: 1,
+    minimumScale: 1,
+  },
+};

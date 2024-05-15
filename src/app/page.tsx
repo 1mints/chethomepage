@@ -17,16 +17,17 @@ let code2= "/g09u5bbu-qg5buip5uibpb2gq--gqq--gq9u4g-4-ubqvbuygquy4tvgouyvouyvouy
 
 export default function Home() {
   return (
+    
     <div className="relative flex w-full h-screen flex-col overflow-hidden bg-[#1E1E1E]">
     
     
       <div className="">
 
-      </div>
+    
 
 
 
-      <Image className="absolute ml-5 mt-3"
+      <Image className="absolute ml-5 mt-3 md:ml-[4.166%]"
     src="/logo.png"
           width={30}
           height={50}
@@ -34,9 +35,21 @@ export default function Home() {
           >
       
       </Image>
+
+      <div className="hidden md:flex flex-row absolute mr-[4.166%] text-white mt-4 end-0">
+      
+      <div className="cursor-pointer"><Link href="/chet">CHET BOT</Link></div>
+      
+      
+      <div className="cursor-pointer mx-20"><Link href="/dameme">DAMEM-E</Link></div>
+      
+      
+      <div className="cursor-pointer"><Link href="/showcase">SHOWCASE</Link></div>
+     
+      </div>
     
       <Menu>
-      <MenuButton className="absolute end-0 m-3">
+      <MenuButton className="block md:hidden absolute end-0 m-3">
         <Image
     src="/menu.png"
           width={50}
@@ -54,7 +67,7 @@ export default function Home() {
         leaveFrom="opacity-100 scale-100 translate-y-0"
         leaveTo="opacity-0 scale-100 -translate-y-6"
       >
-      <MenuItems anchor="bottom end" className="w-full h-full text-white top-10 origin-top transition backdrop-blur-md -webkit-backdrop-blur-md">
+      <MenuItems anchor="bottom end" className=" w-full h-full text-white top-10 origin-top transition backdrop-blur-md">
         <MenuItem>
           <a className="block data-[active]: m-20 w-32 h-10 text-2xl left-20" href="/chet">
             CHET BOT
@@ -73,18 +86,17 @@ export default function Home() {
       </MenuItems>
       </Transition>
     </Menu>
-    
+    </div>
     
     
     <div className="relative top-[16%] w-11/12 mx-auto bottom-1 h-4/5 rounded-3xl text-center bg-gradient-to-b from-transparent via-[#1E1E1E] to-transparent overflow-hidden hover:cursor-pointer	">
     <div className="absolute text-neutral-700 text-left text-wrap m-2">
     <span className="text-lime-400">c</span>
-      {code}
+    {code}
     {code2}
     <span className="text-lime-400">he</span>
     {code}
     {code2}
-    
     {code2}
     <span className="text-lime-400">t</span>
     {code}
@@ -93,9 +105,17 @@ export default function Home() {
     {code}
     {code2}
     {code}
-    
     {code}
     {code2}
+    {code}
+    <span className="text-lime-400">c</span>
+    {code}
+    {code2}
+    <span className="text-lime-400">he</span>
+    {code}
+    {code2}
+    {code2}
+    <span className="text-lime-400">t</span>
     {code}
     </div>
 
