@@ -18,7 +18,7 @@ let code2= "/g09u5bbu-qg5buip5uibpb2gq--gqq--gq9u4g-4-ubqvbuygquy4tvgouyvouyvouy
 export default function Home() {
   return (
     
-    <div className="relative flex w-full h-screen flex-col overflow-hidden bg-[#1E1E1E]">
+    <div className="relative flex w-full h-screen flex-col overflow-hidden bg-[#161616]">
     
     
       <div className="">
@@ -89,8 +89,8 @@ export default function Home() {
     </div>
     
     
-    <div className="relative top-[16%] w-11/12 mx-auto bottom-1 h-4/5 rounded-3xl text-center bg-gradient-to-b from-transparent via-[#1E1E1E] to-transparent overflow-hidden hover:cursor-pointer	">
-    <div className="absolute text-neutral-700 text-left text-wrap m-2">
+    <div className="relative top-[20%] w-full mx-auto h-4/5 rounded-3xl text-center bg-gradient-to-b from-transparent via-[#1E1E1E] to-transparent overflow-hidden hover:cursor-pointer	">
+    <div className="absolute text-neutral-700 from-gray-300 text-left text-wrap m-2">
     <span className="text-lime-400">c</span>
     {code}
     {code2}
