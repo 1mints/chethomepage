@@ -4,6 +4,7 @@ import { useEffect } from 'react'
 import Typewriter from 'react-ts-typewriter';
 import Image from 'next/image'
 import Link from 'next/link'
+import { useRouter } from 'next/navigation'
 import { Menu, MenuButton, MenuItem, MenuItems,Transition  } from '@headlessui/react'
 
 
@@ -20,6 +21,8 @@ let code3 = `\_   ___ \|  |__   _____/  |_    /  _  \ |__| \_   ___ \|  |__   __
         \/     \/     \/               \/             \/     \/     \/               \/             \/     \/     \/               \/             \/     \/     \/               \/             \/     \/     \/               \/             \/     \/     \/               \/             \/     \/     \/               \/             \/     \/     \/               \/             \/     \/     \/               \/             \/     \/     \/               \/             \/     \/     \/               \/    `
 
 export default function Home() {
+  
+
   return (
     
     <div className="relative flex w-full h-screen flex-col overflow-hidden bg-[#161616]">
@@ -48,7 +51,7 @@ export default function Home() {
       <div className="cursor-pointer mx-20"><Link href="/dameme">DAMEM-E</Link></div>
       
       
-      <div className="cursor-pointer"><Link href="nft">NFT</Link></div>
+      <div className="cursor-pointer" ><Link href="/nft">NFT</Link></div>
      
       </div>
     
@@ -93,8 +96,8 @@ export default function Home() {
     </div>
     
     
-    <div className="relative top-[16%] w-11/12 mx-auto h-4/5 rounded-3xl text-center bg-gradient-to-b from-transparent via-[#1E1E1E] to-transparent overflow-hidden hover:cursor-pointer	">
-    <div className="absolute text-neutral-700 from-gray-300 text-left text-wrap m-2 blur-[2px]">
+    <div className="relative top-[16%] w-full mx-auto h-4/5 rounded-3xl text-center bg-gradient-to-b from-transparent via-[#1E1E1E] to-transparent overflow-hidden hover:cursor-pointer	">
+    <div className="absolute text-neutral-700 from-gray-300 text-left text-wrap m-2 blur-[1px]">
     <span className="text-lime-400">c</span>
     {code3}
     <span className="text-lime-400">he</span>

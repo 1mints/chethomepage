@@ -10,10 +10,14 @@
   },
   "dependencies": {
     "@headlessui/react": "^2.0.3",
+    "@thirdweb-dev/react": "^3.16.5",
+    "@thirdweb-dev/sdk": "^4.0.85",
+    "ethers": "^5.7.2",
     "next": "14.2.3",
     "react": "^18.3.1",
     "react-dom": "^18",
     "react-ts-typewriter": "^0.1.8-b",
+    "thirdweb": "^5.21.0",
     "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
