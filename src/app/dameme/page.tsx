@@ -22,11 +22,7 @@ export default function NFT() {
     const [position,setPosition] = useState(0);
     const containerRef = useRef();
 
-    function handleClick(value) {
-        let newScroll = position + value;
-        setPosition(newScroll)
-        containerRef.current.scrollLeft = newScroll;
-    }
+
  
 
     return (
@@ -36,7 +32,7 @@ export default function NFT() {
             </div>
             
            
-            <div ref={containerRef}
+            <div
             className="absolute mx-auto top-[20%] flex h-11/12 w-[3000x] overflow-x-scroll scroll-smooth">
             {sampleData.map((item)=> (
                 <div className={item.className} ></div>
@@ -45,8 +41,8 @@ export default function NFT() {
             </div>
             
             <div className="absolute flex mt-10 mx-4 h-10 top-[68%] end-0">
-            <button className="bg-neutral-300 rounded-3xl w-20 mx-10" onClick={()=>{handleClick(-itemwidth)}}>←</button>    
-            <button className="bg-neutral-300 rounded-3xl w-20" onClick={()=>{handleClick(itemwidth)}}>→</button>
+            <button className="bg-neutral-300 rounded-3xl w-20 mx-10" >←</button>    
+            <button className="bg-neutral-300 rounded-3xl w-20" >→</button>
             </div>
             
             

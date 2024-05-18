@@ -32,8 +32,7 @@ export default function nft() {
         coinbaseWallet(),
         walletConnect(),
       ]}
-      clientId="<your_client_id>"
-      activeChain="solana"
+      clientId="c22a7a8d4ad92d03a546e17a3bcf09f9"
     >
         <div className="relative flex w-full h-screen flex-col overflow-hidden bg-[#161616]">
             <div className="w-1/2 h-full mx-auto">
