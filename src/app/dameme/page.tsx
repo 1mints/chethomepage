@@ -25,7 +25,7 @@ export default function NFT() {
     const [position,setPosition] = useState(true);
     const containerRef = useRef(null);
 
-    const handleScroll = (element, speed, distance, step) => {
+    const handleScroll = (element: any, speed: any, distance: any, step: any) => {
         let scrollAmount = 0;
         const slideTimer = setInterval(() => {
             element.scrollLeft += step;
