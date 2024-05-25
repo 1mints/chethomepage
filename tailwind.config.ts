@@ -17,6 +17,20 @@ const config: Config = {
         xs: '2px',
         
       },
+      height: {
+        "calc": "calc(100vh - 48px)",
+        '48px': '48px',
+
+      },
+      width: {
+        '48px': '48px',
+        "inherit" : "inherit",
+        '45pr': '45%',
+      },
+      colors: {
+        'chetgpt-dark-bg' : "rgb(21,21,21)",
+        'chetgpt-green': '#06a17b'
+      }
     },
   },
   plugins: [],

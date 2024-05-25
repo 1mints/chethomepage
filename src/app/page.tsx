@@ -6,6 +6,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { Menu, MenuButton, MenuItem, MenuItems,Transition  } from '@headlessui/react'
+import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 
 
 
@@ -45,13 +46,13 @@ export default function Home() {
 
       <div className="hidden md:flex flex-row absolute mr-[4.166%] text-white mt-4 end-0">
       
-      <div className="cursor-pointer"><Link href="/chet">CHET BOT</Link></div>
+      <div className="cursor-pointer hover:text-[#0FFF00]"><Link href="/bot">CHET BOT</Link></div>
       
       
-      <div className="cursor-pointer mx-20"><Link href="/dameme">DAMEM-E</Link></div>
+      <div className="cursor-pointer mx-20 hover:text-[#0FFF00]"><Link href="/dameme">DAMEM-E</Link></div>
       
       
-      <div className="cursor-pointer" ><Link href="/nft">NFT</Link></div>
+      <div className="cursor-pointer hover:text-[#0FFF00]" ><Link href="/nft">NFT</Link></div>
      
       </div>
     
@@ -98,20 +99,20 @@ export default function Home() {
     
     <div className="relative top-[16%] w-full mx-auto h-4/5 rounded-3xl text-center bg-gradient-to-b from-transparent via-[#1E1E1E] to-transparent overflow-hidden hover:cursor-pointer	">
     <div className="absolute text-neutral-700 from-gray-300 text-left text-wrap m-2 blur-[1px]">
-    <span className="text-lime-400">c</span>
+    <span className="text-[#0FFF00]">c</span>
     {code3}
-    <span className="text-lime-400">he</span>
+    <span className="text-[#0FFF00]">he</span>
     {code2}
     {code3}
-    <span className="text-lime-400">t</span>
+    <span className="text-[#0FFF00]">t</span>
     {code}
     {code3}
-    <span className="text-lime-400">c</span>
+    <span className="text-[#0FFF00]">c</span>
     {code3}
-    <span className="text-lime-400">he</span>
+    <span className="text-[#0FFF00]">he</span>
     {code2}
     {code3}
-    <span className="text-lime-400">t</span>
+    <span className="text-[#0FFF00]">t</span>
     {code3}
     </div>
 

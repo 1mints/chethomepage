@@ -1,6 +1,7 @@
 import type { Metadata,Viewport } from "next";
 import { Ubuntu_Mono } from "next/font/google";
 import "./globals.css";
+import AppWalletProvider from "./components/AppWalletProvider";
 
 const ubuntu = Ubuntu_Mono({ weight: '400',
 subsets: ['latin'], });
@@ -24,7 +25,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={ubuntu.className}>{children}</body>
+      <body className={ubuntu.className}>
+      <AppWalletProvider>{children}</AppWalletProvider>
+      </body>
     </html>
   );
 }

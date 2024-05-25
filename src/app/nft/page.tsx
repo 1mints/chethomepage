@@ -1,57 +1,35 @@
 'use client'
-import {
-    ThirdwebProvider,
-    metamaskWallet,
-    coinbaseWallet,
-    walletConnect,
-    phantomWallet,
-  } from "@thirdweb-dev/react";
-  import { ConnectWallet } from "@thirdweb-dev/react";
-  import { darkTheme, lightTheme } from "@thirdweb-dev/react";
- 
-
-  const customDarkTheme = darkTheme({
-    colors: {
-      modalBg: "#161616",
-      accentText: "green",
-      // ... etc
+import Link from 'next/link'
+import AppWalletProvider from '../components/AppWalletProvider'
+import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
+import { Ubuntu_Mono } from "next/font/google";
 
 
-    },
-  });
 
 
 export default function nft() {
+  
  
     return(
-        <ThirdwebProvider
-      supportedWallets={[
-        phantomWallet({
-          recommended: true,
-        }),
-        coinbaseWallet(),
-        walletConnect(),
-      ]}
-      clientId="c22a7a8d4ad92d03a546e17a3bcf09f9"
-    >
         <div className="relative flex w-full h-screen flex-col overflow-hidden bg-[#161616]">
-            <div className="w-1/2 h-full mx-auto">
-                <div>
-                <div className="relative w-32 h-20 top-[150px] mx-auto text-white text-center">NFTs are loading</div>
-                </div>
-                <div>
-                <div className="relative w-4 h-8 flex mx-auto mt-28 animate-spin bg-white rounded-3xl text-white">a</div>
-                </div>
-                <div>
-                    <div className="w-52 mt-14 mx-auto text-white text-center">Connect wallet for now</div>
-
-                    <div className="mt-6 mx-auto w-36">
-                    <ConnectWallet className="rounded-3xl" modalSize="compact" theme={customDarkTheme}/>
-                    </div>
-
-                </div>
+        <div className="absolute h-10 m-4 text-white">
+            <Link href="/">HOME</Link>
             </div>
+
+        
+
+        <div className="relative w-[400px] md:w-[600px] h-2/3 mx-auto m-10 mt-20 bg-black rounded-3xl text-2xl text-white border-[1px] border-white">
+        <div className="relative max-w-fit mx-auto top-[40%] text-white">
+          <div className="max-w-fit mx-auto text-lg">NFTS COMING SOON</div>
+          <div className="max-w-fit m-4 mx-auto animate-spin h-7 w-3 bg-white">|</div>
         </div>
-        </ThirdwebProvider>
+          <div className="relative mt-96 m-4 max-w-fit mx-auto">GET READY TO MINT</div>
+          <div className="w-64 text-center mx-auto">
+          <WalletMultiButton className="rounded-3xl" style={{color:'black', backgroundColor:'white', fontFamily:'monospace'}} />
+          </div>
+        </div>
+
+        </div>
+        
     )
 }
